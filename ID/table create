@@ -1,0 +1,21 @@
+/*EATE TABLE Students(
+  Name varchar(30),
+  Regd_No int,
+  Address varchar(40),
+  Branch varchar(30),
+  Section varchar(30),
+  Semester int,
+  CGPA int);
+  
+ INSERT INTO Students(Name,Regd_No,Address,Branch,Section,Semester,CGPA)
+ VALUES('Amit Aryan',2141001065,'Bhubaneswar','CSE','N',6,5.0),
+       ('Maheshwar Nag',2141041002,'Bhubaneswar','CSE','N',6,9.9),
+       ('Akash Dev',2141004126,'Bhubaneswar','CSE','N',6,10.0),
+       ('Rohit Gupta',2141001065,'Bhubaneswar','CSE','N',6,4.96),
+       ('Ashmit Raj',2141001065,'Bhubaneswar','CSE','N',6,2.96),
+       ('Rahul Dev',2141001065,'Bhubaneswar','CSE','N',6,5.96),
+       ('Lakshya Gupta',2141001065,'Bhubaneswar','CSE','N',6,4.96);
+*/
+ --LECT Name,Regd_No FROM Students WHERE CGPA>=5.0
+ UPDATE Students
+ SET Section='Q' WHERE Branch='CSE';
