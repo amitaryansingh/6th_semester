@@ -1,4 +1,4 @@
-/*EATE TABLE Students(
+/*CREATE TABLE Students(
   Name varchar(30),
   Regd_No int,
   Address varchar(40),
